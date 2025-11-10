@@ -1,0 +1,23 @@
+<head>
+    ...
+    <script>
+    window.gtranslateSettings = window.gtranslateSettings || {};
+    window.gtranslateSettings['mywidget1'] = {
+      default_language: 'pt',
+      languages: ['pt','en','es','fr'],
+      url_structure: 'none',           // 'none' | 'sub_directory' | 'sub_domain'
+      wrapper_selector: '.gtranslate_wrapper',
+      detect_browser_language: true
+    };
+    </script>
+
+    <!-- ...other scripts... -->
+</head>
+<body>
+    ...
+    <div class="gtranslate_wrapper"></div>
+    ...
+
+    <!-- moved widget script to end of body to ensure wrapper exists -->
+    <script src="/js/gtranslate-widget.js" data-gt-widget-id="mywidget1" data-gt-orig-domain="example.com"></script>
+</body>
