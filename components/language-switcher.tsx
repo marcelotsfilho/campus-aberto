@@ -39,8 +39,8 @@ export function LanguageSwitcher() {
         pt: 'brazil', // Usa bandeira do Brasil para português
         en: 'usa',    // Usa bandeira dos EUA para inglês
       },
-      switcher_horizontal_position: 'right',
-      switcher_vertical_position: 'top',
+      switcher_horizontal_position: 'left',
+      switcher_vertical_position: 'bottom',
       float_switcher_open_direction: 'bottom',
       url_structure: 'none',
       detect_browser_language: true,
