@@ -6,6 +6,17 @@ import { Badge } from "@/components/ui/badge"
 import { Clock, Users, MapPin, Search, Filter, Calendar } from "lucide-react"
 
 const activities = [
+	// EVENTOS
+	{
+		name: "Semana 115 Anos CEFET-MG",
+		description: "Participação na Semana de 115 Anos do CEFET-MG",
+		// schedule: "Segunda a Sexta - 7h às 9h / 18h às 20h",
+		// location: "Piscina Olímpica",
+		// participants: "15 alunos por turma",
+		// ageGroup: "6+ anos",
+		// level: "Iniciante a Competitivo",
+		image: "/semana-115-anos/semana115anos-1.jpg",
+	},
 	// CURSOS
 	{
 		name: "Lei de Incentivo ao Esporte",
